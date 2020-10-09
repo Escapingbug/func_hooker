@@ -1,0 +1,2 @@
+option('hook_binary', type : 'string', value : 'hook/binary', description : 'the binary to be hooked')
+option('hook_libc', type : 'boolean', value : true, description : 'hook all libc functions or not')
